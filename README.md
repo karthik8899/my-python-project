@@ -5,5 +5,6 @@
 -- pip install -r requirements-dev.txt 
 -- lint: ruff . --select=E9,F63,F7,F82 
 -- black --verbose --check . tests 
-
+-- pytest
+-- coverage report
 

@@ -11,3 +11,8 @@ extend-exclude = '''
   ^/migrations\/ 
 ) 
 '''
+
+[tool.pytest.ini_options] 
+addopts = "-ra --cov"
+testpaths = ["tests"] 
+pythonpath = ['.']
